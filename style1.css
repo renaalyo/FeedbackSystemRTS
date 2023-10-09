@@ -100,10 +100,11 @@ legend {
     margin-top: 40px;
 }
 
-.text__rating__creativity{
-    
+.text__rating {
+    margin: 20px;
 
-    font-size: 20px;
+    
+    font-size: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -114,7 +115,7 @@ legend {
    
 }
 
-#test{
+.test{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -129,11 +130,11 @@ legend {
     margin-right: 5px;
 }
 
-#test:last-child{
+.test:last-child{
     margin-right: 0px;
 }
 
-#test:hover, :checked{
+.test:hover, :checked{
     border: 12px solid blueviolet;
 }
 
@@ -148,7 +149,24 @@ button{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button:hover, :focus{
+.button__submit:hover, :focus{
     transition: 0.2s all ease;
     background-color: blueviolet;
+}
+
+.input__name{
+    padding: 5px;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#dynamicText{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
