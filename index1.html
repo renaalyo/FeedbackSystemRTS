@@ -8,20 +8,20 @@
 </head>
 <body>
     <div class = "block">
-        <input type="text" name="" id="input__name" placeholder="Type your name">
-        <div class = "text__rating__creativity">
+        <input type="text" name="" class="input__name" placeholder="Type your name">
+        <div class = "text__rating creativity">
             Rating for creativity
         </div>
         <h2 id="dynamicText"></h2>
         <div class="block_rating">
-            <input onclick="displayText(0)" type="radio" name="rating" id="test" value = "1">
-            <input onclick="displayText(1)" type="radio" name="rating" id="test" value = "2">
-            <input onclick="displayText(2)" type="radio" name="rating" id="test" value = "3">
-            <input onclick="displayText(3)" type="radio" name="rating" id="test" value = "4">
-            <input onclick="displayText(4)" type="radio" name="rating" id="test" value = "5">
+            <input onclick="displayText(0)" type="radio" name="rating" class="test" value = "1">
+            <input onclick="displayText(1)" type="radio" name="rating" class="test" value = "2">
+            <input onclick="displayText(2)" type="radio" name="rating" class="test" value = "3">
+            <input onclick="displayText(3)" type="radio" name="rating" class="test" value = "4">
+            <input onclick="displayText(4)" type="radio" name="rating" class="test" value = "5">
         </div>
         
-        <div><button type="submit" onclick="getRating()">Submit</button></div>
+        <div><button type="submit" onclick="getRating()" class="button__submit">Submit</button></div>
         <span id="copyMessage"></span>
     </div>
     
