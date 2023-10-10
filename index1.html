@@ -20,7 +20,26 @@
             <input onclick="displayText(3)" type="radio" name="rating" class="test" value = "4">
             <input onclick="displayText(4)" type="radio" name="rating" class="test" value = "5">
         </div>
+
+        <div id="dynamicText Workrate"></div>
+        <div class = "text__rating workrate">
+            Rating for workrate
+        </div>
+        <div class = "block_rating workrate" style="accent-color: blueviolet;">
+            <!-- To show new information about changing  -->
+            <input type="range" name = "" min="1" max="5" step="1" onchange="displayText(step)">
+        </div>
         
+
+
+        <div class = "text__rating discipline">
+            Rating for discipline
+        </div>
+        <div class = "block_rating discipline" style="accent-color: blueviolet;">
+            <input type="range" name = "" min="1" max="5" step="1">
+        </div>
+
+
         <div><button type="submit" onclick="getRating()" class="button__submit">Submit</button></div>
         <span id="copyMessage"></span>
     </div>
